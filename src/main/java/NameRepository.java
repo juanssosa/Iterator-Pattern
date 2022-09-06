@@ -2,7 +2,7 @@
  * @author JuanS
  */
 public class NameRepository implements Container{
-    public String names[] = {"Robert", "John", "Julie", "Lora"};
+    public String names[] = {"Carlos", "Juan", "Juliana", "Andrea"};
     
     @Override
     public Iterator getIterator(){
