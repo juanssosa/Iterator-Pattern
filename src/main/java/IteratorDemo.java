@@ -9,7 +9,7 @@ public class IteratorDemo {
 
         for(Iterator iter = namesRepository.getIterator(); iter.hasNext();){
             String name = (String)iter.next();
-            System.out.println("Name : " + name);
+            System.out.println("Nombres : " + name);
         } 	
     }
 }
